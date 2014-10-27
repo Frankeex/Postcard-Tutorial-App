@@ -35,16 +35,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="314" width="313" height="30"/>
+                                    <rect key="frame" x="0.0" y="295" width="313" height="30"/>
                                 </variation>
                             </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikq-dL-9ro">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="84" width="368" height="70"/>
+                                    <rect key="frame" x="16" y="64" width="368" height="61"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygc-e9-Lwp">
@@ -75,6 +75,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U1Q-EF-2ya"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kind regards, " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qss-dI-S7I">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="154" width="199" height="52"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -85,6 +94,7 @@
                                 <exclude reference="Ikq-dL-9ro"/>
                                 <exclude reference="ygc-e9-Lwp"/>
                                 <exclude reference="EVP-TC-IMv"/>
+                                <exclude reference="Qss-dI-S7I"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -95,6 +105,7 @@
                                 <include reference="Ikq-dL-9ro"/>
                                 <include reference="ygc-e9-Lwp"/>
                                 <include reference="EVP-TC-IMv"/>
+                                <include reference="Qss-dI-S7I"/>
                             </mask>
                         </variation>
                     </view>
@@ -103,6 +114,7 @@
                         <outlet property="enterNameTextField" destination="cDM-PZ-Odg" id="5RP-Bh-Ogj"/>
                         <outlet property="mailButton" destination="EVP-TC-IMv" id="efX-e5-tRD"/>
                         <outlet property="messageLabel" destination="Ikq-dL-9ro" id="FZU-a4-6Ry"/>
+                        <outlet property="nameLabel" destination="Qss-dI-S7I" id="RIa-wn-zoI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
