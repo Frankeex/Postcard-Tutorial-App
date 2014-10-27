@@ -1,10 +1,8 @@
 //
 //  ViewController.swift
 //  PostCard
-//
-//  Created by Frank Lucisano on 26/10/2014.
 //  Copyright (c) 2014 FX Group Pty. Ltd. All rights reserved.
-//
+//  testing commits
 
 import UIKit
 
